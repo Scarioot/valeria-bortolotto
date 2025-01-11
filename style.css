@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+/*
+cor0 #E4BFE6
+cor01 #E673A8
+cor02 #E67773
+cor03 #E172E5
+cor04 #BC73E6
+cor05 #9773E6
+
+cor pedir pra mar #8B5E3C
+*/
+
+
+
+body {
+    font-family: 'poppinslight',Arial, Helvetica, sans-serif;
+    background-color: #FADADD;
+    color: #4F4F4F;
+    font-weight: 700;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 1em;
+}
+
+header > div > h1 {
+    font-family: "Birthstone", sans-serif;
+    font-size: 3.5em;
+    color: #A786DF;/* Cor primária */
+    text-shadow: 1px 1px 10px white; /* Cor secundária como sombra */
+}
+
+main {
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    color: #7E6A9C;
+    margin: auto;
+}
+
+main h1, h2, h3 {
+    font-family:  'Oswald',Arial, Helvetica, sans-serif;
+    color: #7E6A9C; /* Lavanda escuro */
+    text-transform: uppercase;
+}
+
+div {
+    margin-right: 100px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    color: #4F4F4F; /* Cinza escuro */
+    line-height: 1.8; /* Melhor espaçamento para leitura */
+    font-size: 1.1em;
+}
+
+div {
+    display: block;
+}
+
+li {
+    display: inline-block;
+    margin: 30px;
+}
+
+a {
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: #D892AB;
+}
+
+a:hover {
+    color: #8B5E3C;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+aside > img{
+    width: 20%;
+    align-items: center;
+    border-radius: 100px;
+}
+
+
+#whatsapp-btn, #email-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #25D366; /* Cor do WhatsApp */
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+#email-btn {
+    background-color: #007BFF; /* Cor do botão de e-mail */
+}
+
+#whatsapp-btn:hover {
+    background-color: #1DA851;
+}
+
+#email-btn:hover {
+    background-color: #0056b3;
+}
+
+#VLR {
+    margin: 30px 60px;
+}
+
+#BRT {
+    margin: 10px 10px 10px 20px;
+}
+
+main {
+    display: flex; /* Alinha os elementos em uma linha */
+    flex-direction: row; /* Define a direção horizontal */
+    justify-content: space-between; /* Espaço entre os itens */
+    align-items: flex-start; /* Alinha os itens ao topo */
+    margin-top: 50px;
+    color: #7E6A9C;
+    max-width: 1200px; /* Define a largura máxima para centralizar */
+    margin: 50px auto; /* Centraliza o container no centro da página */
+}
+
+main .text-content {
+    flex: 1; /* Ocupa o espaço disponível */
+    display: flex;
+    flex-direction: column; /* Organiza os itens verticalmente */
+    justify-content: flex-start;
+}
+
+main .text-content h2, 
+main .text-content p,
+main .text-content #whatsapp-btn, 
+main .text-content #email-btn {
+    margin-bottom: 20px; /* Adiciona espaçamento entre os itens */
+}
+
+main .image-content {
+    flex: 0 0 50%; /* A imagem ocupa 40% da largura do main */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .image-content img {
+    width: 100%; /* Imagem se ajusta ao espaço disponível */
+    max-width: 300px; /* Define uma largura máxima para a imagem */
+    border-radius: 15px; /* Bordas arredondadas */
+}
+
+footer > a {
+    background-color: black;
+}
